@@ -1,0 +1,220 @@
+{
+  "base_url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/",
+  "assets": [
+    {
+      "id": "preloader",
+      "type": "gif",
+      "name": "Kriya Preloader",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/Kriya-Preloader.gif",
+      "path": "2023/07/Kriya-Preloader.gif",
+      "usage": "preloader"
+    },
+    {
+      "id": "logo",
+      "type": "png",
+      "name": "KRIYA Logo",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/logo.png",
+      "path": "2023/07/logo.png",
+      "usage": "header / footer"
+    },
+    {
+      "id": "icon-thumb1",
+      "type": "jpg",
+      "name": "Yoga Icon — Astanga",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2016/06/icon-thumb1.jpg",
+      "path": "2016/06/icon-thumb1.jpg",
+      "usage": "yoga-styles grid"
+    },
+    {
+      "id": "icon-thumb2",
+      "type": "jpg",
+      "name": "Yoga Icon — Hatha",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2016/06/icon-thumb2.jpg",
+      "path": "2016/06/icon-thumb2.jpg",
+      "usage": "yoga-styles grid"
+    },
+    {
+      "id": "icon-thumb3",
+      "type": "jpg",
+      "name": "Yoga Icon — Iyengar",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2016/06/icon-thumb3.jpg",
+      "path": "2016/06/icon-thumb3.jpg",
+      "usage": "yoga-styles grid"
+    },
+    {
+      "id": "icon-thumb4",
+      "type": "jpg",
+      "name": "Yoga Icon — Kundalini",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2016/06/icon-thumb4.jpg",
+      "path": "2016/06/icon-thumb4.jpg",
+      "usage": "yoga-styles grid"
+    },
+    {
+      "id": "blog9",
+      "type": "jpg",
+      "name": "Blog Post 9",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2015/06/blog9.jpg",
+      "path": "2015/06/blog9.jpg",
+      "usage": "recent-blogs"
+    },
+    {
+      "id": "course11",
+      "type": "jpg",
+      "name": "Course 11",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2016/06/course11.jpg",
+      "path": "2016/06/course11.jpg",
+      "usage": "recent-blogs / courses"
+    },
+    {
+      "id": "blog2",
+      "type": "jpg",
+      "name": "Blog Post 2",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2015/06/blog2.jpg",
+      "path": "2015/06/blog2.jpg",
+      "usage": "recent-blogs"
+    },
+    {
+      "id": "about-yoga",
+      "type": "jpg",
+      "name": "About Yoga",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/about-yoga.jpg",
+      "path": "2023/07/about-yoga.jpg",
+      "usage": "about-kriya section"
+    },
+    {
+      "id": "user1",
+      "type": "jpg",
+      "name": "Team Member 1",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/user1.jpg",
+      "path": "2023/07/user1.jpg",
+      "usage": "team grid"
+    },
+    {
+      "id": "user2",
+      "type": "jpg",
+      "name": "Team Member 2",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/user2.jpg",
+      "path": "2023/07/user2.jpg",
+      "usage": "team grid"
+    },
+    {
+      "id": "user3",
+      "type": "jpg",
+      "name": "Team Member 3",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/user3.jpg",
+      "path": "2023/07/user3.jpg",
+      "usage": "team grid"
+    },
+    {
+      "id": "user4",
+      "type": "jpg",
+      "name": "Team Member 4",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/user4.jpg",
+      "path": "2023/07/user4.jpg",
+      "usage": "team grid"
+    },
+    {
+      "id": "video-gall-01",
+      "type": "jpg",
+      "name": "Video Gallery 01",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/video-gall-01.jpg",
+      "path": "2023/07/video-gall-01.jpg",
+      "usage": "video-gallery"
+    },
+    {
+      "id": "video-gall-02",
+      "type": "jpg",
+      "name": "Video Gallery 02",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/video-gall-02.jpg",
+      "path": "2023/07/video-gall-02.jpg",
+      "usage": "video-gallery"
+    },
+    {
+      "id": "video-gall-03",
+      "type": "jpg",
+      "name": "Video Gallery 03",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/video-gall-03.jpg",
+      "path": "2023/07/video-gall-03.jpg",
+      "usage": "video-gallery"
+    },
+    {
+      "id": "video-gall-04",
+      "type": "jpg",
+      "name": "Video Gallery 04",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/video-gall-04.jpg",
+      "path": "2023/07/video-gall-04.jpg",
+      "usage": "video-gallery"
+    },
+    {
+      "id": "pose-wit-caption",
+      "type": "jpg",
+      "name": "Pose With Caption",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2023/07/pose-wit-caption.jpg",
+      "path": "2023/07/pose-wit-caption.jpg",
+      "usage": "enthusiasts-cta banner"
+    },
+    {
+      "id": "product-yoga-black-vase",
+      "type": "jpg",
+      "name": "Yoga Black Vase",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2013/06/yoga-black-vase-1000x1000.jpg",
+      "path": "2013/06/yoga-black-vase-1000x1000.jpg",
+      "dimensions": "1000x1000",
+      "usage": "shop product"
+    },
+    {
+      "id": "product-black-vase-decor",
+      "type": "jpg",
+      "name": "Black Vase Decor",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2013/06/black-vase-decor-1000x1000.jpg",
+      "path": "2013/06/black-vase-decor-1000x1000.jpg",
+      "dimensions": "1000x1000",
+      "usage": "shop product"
+    },
+    {
+      "id": "product-yoga-herbal-care",
+      "type": "jpg",
+      "name": "Yoga Herbal Care Pack",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2013/06/yoga-herbal-care-pack-1000x1000.jpg",
+      "path": "2013/06/yoga-herbal-care-pack-1000x1000.jpg",
+      "dimensions": "1000x1000",
+      "usage": "shop product"
+    },
+    {
+      "id": "product-yoga-bath-combo",
+      "type": "jpg",
+      "name": "Yoga Bath Combo Pack",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2013/06/yoga-bath-combo-pack-1000x1000.jpg",
+      "path": "2013/06/yoga-bath-combo-pack-1000x1000.jpg",
+      "dimensions": "1000x1000",
+      "usage": "shop product"
+    },
+    {
+      "id": "product-woodbox-towel",
+      "type": "jpg",
+      "name": "Woodbox & Towel Set",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2013/06/woodbox-and-towel-set-1000x1000.jpg",
+      "path": "2013/06/woodbox-and-towel-set-1000x1000.jpg",
+      "dimensions": "1000x1000",
+      "usage": "shop product"
+    },
+    {
+      "id": "product-green-wood-basket",
+      "type": "jpg",
+      "name": "Green Wood Basket",
+      "url": "https://kriyayogael.wpenginepowered.com/wp-content/uploads/2013/06/green-wood-basket-1000x1000.jpg",
+      "path": "2013/06/green-wood-basket-1000x1000.jpg",
+      "dimensions": "1000x1000",
+      "usage": "shop product"
+    }
+  ],
+  "summary": {
+    "total_assets": 25,
+    "by_type": {
+      "gif": 1,
+      "png": 1,
+      "jpg": 23
+    },
+    "upload_years": ["2013", "2015", "2016", "2023"]
+  }
+}

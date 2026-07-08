@@ -1,0 +1,351 @@
+{
+  "site": {
+    "platform": "WordPress",
+    "builder": "Elementor",
+    "hosting": "WP Engine",
+    "page_title": "Kriya Yoga Elementor Site – Your SUPER-powered WP Engine Site"
+  },
+  "global_anchors": [
+    {
+      "selector": "#main",
+      "purpose": "Skip-to-content target"
+    },
+    {
+      "selector": "#pricing_plan",
+      "purpose": "Pricing plans anchor for in-page navigation"
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "preloader",
+      "elementor_type": "section",
+      "widgets": [
+        {
+          "widget_type": "image",
+          "name": "Preloader Image",
+          "settings": { "image": "Kriya-Preloader.gif" }
+        }
+      ]
+    },
+    {
+      "section_id": "header",
+      "elementor_type": "section",
+      "layout": "full-width",
+      "position": "sticky",
+      "widgets": [
+        {
+          "widget_type": "image",
+          "name": "Logo",
+          "settings": { "image": "logo.png" }
+        },
+        {
+          "widget_type": "nav-menu",
+          "name": "Primary Navigation",
+          "instances": ["desktop", "mobile", "sticky"],
+          "menu_items": ["Home", "Pages", "Blog", "Gallery", "Book Now", "Location", "Shop", "Events"]
+        }
+      ]
+    },
+    {
+      "section_id": "hero",
+      "elementor_type": "section",
+      "layout": "full-width",
+      "background": "image / gradient",
+      "widgets": [
+        {
+          "widget_type": "slides",
+          "name": "Hero Slider",
+          "slides": [
+            "Your Mind & Soul is beautiful",
+            "Witness the Ethereal Beauty with Kriya",
+            "Just beautiful",
+            "Eternal Love",
+            "Live towards Eternity"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "intro-cta",
+      "elementor_type": "section",
+      "columns": 1,
+      "widgets": [
+        { "widget_type": "heading", "name": "Intro Heading", "level": "h2" },
+        { "widget_type": "text-editor", "name": "Intro Copy" },
+        { "widget_type": "button", "name": "CTA Button", "label": "Know More" }
+      ]
+    },
+    {
+      "section_id": "services-intro",
+      "elementor_type": "section",
+      "columns": 1,
+      "widgets": [
+        { "widget_type": "heading", "name": "Services Title", "level": "h2", "text": "The Secret OF your Everyouth" }
+      ]
+    },
+    {
+      "section_id": "yoga-styles",
+      "elementor_type": "section",
+      "columns": 4,
+      "widgets": [
+        {
+          "widget_type": "icon-box",
+          "name": "Astanga",
+          "settings": { "icon_image": "icon-thumb1.jpg" }
+        },
+        {
+          "widget_type": "icon-box",
+          "name": "Hatha",
+          "settings": { "icon_image": "icon-thumb2.jpg" }
+        },
+        {
+          "widget_type": "icon-box",
+          "name": "Iyengar",
+          "settings": { "icon_image": "icon-thumb3.jpg" }
+        },
+        {
+          "widget_type": "icon-box",
+          "name": "Kundalini",
+          "settings": { "icon_image": "icon-thumb4.jpg" }
+        }
+      ]
+    },
+    {
+      "section_id": "about-kriya",
+      "elementor_type": "section",
+      "columns": 2,
+      "widgets": [
+        { "widget_type": "image", "name": "About Image", "settings": { "image": "about-yoga.jpg" } },
+        { "widget_type": "heading", "name": "About Heading", "level": "h2", "text": "Your life of Yoga with KRIYA" },
+        { "widget_type": "text-editor", "name": "About Copy" }
+      ]
+    },
+    {
+      "section_id": "why-kriya",
+      "elementor_type": "section",
+      "columns": 3,
+      "widgets": [
+        { "widget_type": "icon-box", "name": "Video Support" },
+        { "widget_type": "icon-box", "name": "Customization" },
+        { "widget_type": "icon-box", "name": "Easy Setup" }
+      ]
+    },
+    {
+      "section_id": "creative-promo",
+      "elementor_type": "section",
+      "layout": "full-width",
+      "background": "image",
+      "widgets": [
+        { "widget_type": "button", "name": "Purchase Theme CTA", "label": "Purchase Theme" }
+      ]
+    },
+    {
+      "section_id": "recent-blogs",
+      "elementor_type": "section",
+      "columns": 3,
+      "widgets": [
+        { "widget_type": "posts", "name": "Recent Blog 1", "settings": { "image": "blog9.jpg" } },
+        { "widget_type": "posts", "name": "Recent Blog 2", "settings": { "image": "course11.jpg" } },
+        { "widget_type": "posts", "name": "Recent Blog 3", "settings": { "image": "blog2.jpg" } }
+      ]
+    },
+    {
+      "section_id": "featured-courses",
+      "elementor_type": "section",
+      "columns": 3,
+      "widgets": [
+        { "widget_type": "posts", "name": "Course List (custom post type)" }
+      ]
+    },
+    {
+      "section_id": "gallery-preview",
+      "elementor_type": "section",
+      "columns": [2, 3, 4],
+      "variants": true,
+      "widgets": [
+        { "widget_type": "image-gallery", "name": "Gallery" }
+      ]
+    },
+    {
+      "section_id": "memories",
+      "elementor_type": "section",
+      "columns": 3,
+      "widgets": [
+        { "widget_type": "image-gallery", "name": "Memories Gallery" }
+      ]
+    },
+    {
+      "section_id": "events",
+      "elementor_type": "section",
+      "columns": 2,
+      "widgets": [
+        { "widget_type": "posts", "name": "Events List (custom post type)" }
+      ]
+    },
+    {
+      "section_id": "about-kriya-block",
+      "elementor_type": "section",
+      "columns": 2,
+      "widgets": [
+        { "widget_type": "image", "name": "Brand Image" },
+        { "widget_type": "text-editor", "name": "Brand Story" }
+      ]
+    },
+    {
+      "section_id": "status-numbers",
+      "elementor_type": "section",
+      "columns": 4,
+      "widgets": [
+        { "widget_type": "counter", "name": "Total Users", "settings": { "suffix": "+" } },
+        { "widget_type": "counter", "name": "Years", "settings": { "suffix": "+" } },
+        { "widget_type": "counter", "name": "Branches", "settings": { "suffix": "+" } },
+        { "widget_type": "counter", "name": "Staffs", "settings": { "suffix": "+" } }
+      ]
+    },
+    {
+      "section_id": "team",
+      "elementor_type": "section",
+      "columns": 4,
+      "widgets": [
+        { "widget_type": "team-member", "name": "Member 1", "settings": { "image": "user1.jpg" } },
+        { "widget_type": "team-member", "name": "Member 2", "settings": { "image": "user4.jpg" } },
+        { "widget_type": "team-member", "name": "Member 3", "settings": { "image": "user3.jpg" } },
+        { "widget_type": "team-member", "name": "Member 4", "settings": { "image": "user2.jpg" } }
+      ]
+    },
+    {
+      "section_id": "creative-promo-repeat",
+      "elementor_type": "section",
+      "layout": "full-width",
+      "background": "image",
+      "widgets": [
+        { "widget_type": "button", "name": "Purchase Theme CTA (repeat)" }
+      ]
+    },
+    {
+      "section_id": "video-gallery",
+      "elementor_type": "section",
+      "columns": 4,
+      "widgets": [
+        { "widget_type": "video", "name": "Video 1", "settings": { "thumbnail": "video-gall-01.jpg" } },
+        { "widget_type": "video", "name": "Video 2", "settings": { "thumbnail": "video-gall-02.jpg" } },
+        { "widget_type": "video", "name": "Video 3", "settings": { "thumbnail": "video-gall-03.jpg" } },
+        { "widget_type": "video", "name": "Video 4", "settings": { "thumbnail": "video-gall-04.jpg" } }
+      ]
+    },
+    {
+      "section_id": "testimonials",
+      "elementor_type": "section",
+      "layout": "full-width",
+      "widgets": [
+        {
+          "widget_type": "testimonial-carousel",
+          "name": "Testimonial Slider",
+          "items": [{ "author": "Judie Dench" }]
+        }
+      ]
+    },
+    {
+      "section_id": "shop",
+      "elementor_type": "section",
+      "columns": 3,
+      "background": "white",
+      "widgets": [
+        { "widget_type": "woocommerce-products", "name": "Yoga Black Vase", "settings": { "image": "yoga-black-vase-1000x1000.jpg" } },
+        { "widget_type": "woocommerce-products", "name": "Black Vase Decor", "settings": { "image": "black-vase-decor-1000x1000.jpg" } },
+        { "widget_type": "woocommerce-products", "name": "Yoga Herbal Care Pack", "settings": { "image": "yoga-herbal-care-pack-1000x1000.jpg" } },
+        { "widget_type": "woocommerce-products", "name": "Yoga Bath Combo Pack", "settings": { "image": "yoga-bath-combo-pack-1000x1000.jpg" } },
+        { "widget_type": "woocommerce-products", "name": "Woodbox & Towel Set", "settings": { "image": "woodbox-and-towel-set-1000x1000.jpg" } },
+        { "widget_type": "woocommerce-products", "name": "Green Wood Basket", "settings": { "image": "green-wood-basket-1000x1000.jpg" } }
+      ]
+    },
+    {
+      "section_id": "pricing-plans",
+      "elementor_type": "section",
+      "anchor": "pricing_plan",
+      "columns": 3,
+      "widgets": [
+        {
+          "widget_type": "tabs",
+          "name": "Pricing Tabs",
+          "tabs": [
+            { "id": "wdt-tabs-0", "label": "Kids" },
+            { "id": "wdt-tabs-1", "label": "Adults" },
+            { "id": "wdt-tabs-2", "label": "Couples" }
+          ]
+        },
+        { "widget_type": "price-list", "name": "Plan 1", "settings": { "tab": "wdt-tabs-0" } },
+        { "widget_type": "price-list", "name": "Plan 2", "settings": { "tab": "wdt-tabs-0" } },
+        { "widget_type": "price-list", "name": "Plan 3", "settings": { "tab": "wdt-tabs-0" } },
+        { "widget_type": "price-list", "name": "Plan 1", "settings": { "tab": "wdt-tabs-1" } },
+        { "widget_type": "price-list", "name": "Plan 2", "settings": { "tab": "wdt-tabs-1" } },
+        { "widget_type": "price-list", "name": "Plan 3", "settings": { "tab": "wdt-tabs-1" } },
+        { "widget_type": "price-list", "name": "Plan 1", "settings": { "tab": "wdt-tabs-2" } },
+        { "widget_type": "price-list", "name": "Plan 2", "settings": { "tab": "wdt-tabs-2" } },
+        { "widget_type": "price-list", "name": "Plan 3", "settings": { "tab": "wdt-tabs-2" } }
+      ]
+    },
+    {
+      "section_id": "enthusiasts-cta",
+      "elementor_type": "section",
+      "layout": "full-width",
+      "background": "image",
+      "widgets": [
+        {
+          "widget_type": "image",
+          "name": "Pose Banner",
+          "settings": { "image": "pose-wit-caption.jpg" }
+        },
+        {
+          "widget_type": "heading",
+          "name": "Caption",
+          "level": "h3",
+          "text": "KRIYA made just for Yoga Enthusiasts"
+        }
+      ]
+    },
+    {
+      "section_id": "newsletter",
+      "elementor_type": "section",
+      "columns": 2,
+      "widgets": [
+        { "widget_type": "heading", "name": "Subscribe Heading" },
+        { "widget_type": "form", "name": "Newsletter Form", "fields": ["email"] }
+      ]
+    },
+    {
+      "section_id": "footer",
+      "elementor_type": "section",
+      "layout": "full-width",
+      "widgets": [
+        { "widget_type": "image", "name": "Footer Logo", "settings": { "image": "logo.png" } },
+        { "widget_type": "text-editor", "name": "Footer Description" },
+        { "widget_type": "icon-list", "name": "Social Icons", "items": ["LinkedIn", "Facebook", "Instagram", "Twitter"] },
+        { "widget_type": "icon-list", "name": "Contact Info" },
+        { "widget_type": "text-editor", "name": "Work Hours" },
+        { "widget_type": "text-editor", "name": "Copyright" },
+        { "widget_type": "button", "name": "Back to Top" }
+      ]
+    }
+  ],
+  "widget_types_summary": [
+    "image",
+    "heading",
+    "text-editor",
+    "button",
+    "nav-menu",
+    "slides",
+    "icon-box",
+    "icon-list",
+    "posts",
+    "image-gallery",
+    "counter",
+    "team-member",
+    "video",
+    "testimonial-carousel",
+    "woocommerce-products",
+    "tabs",
+    "price-list",
+    "form"
+  ]
+}

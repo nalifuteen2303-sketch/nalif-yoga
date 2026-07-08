@@ -1,0 +1,294 @@
+{
+  "page": {
+    "title": "Kriya Yoga Elementor Site – Your SUPER-powered WP Engine Site",
+    "url": "https://kriyayogael.wpenginepowered.com/",
+    "platform": "WordPress + Elementor",
+    "hosting": "WP Engine"
+  },
+  "sections": [
+    {
+      "order": 1,
+      "id": "preloader",
+      "type": "preloader",
+      "name": "Preloader",
+      "description": "Animated GIF shown on initial page load",
+      "assets": ["Kriya-Preloader.gif"]
+    },
+    {
+      "order": 2,
+      "id": "header",
+      "type": "navigation",
+      "name": "Header / Navigation",
+      "description": "Sticky top navigation with mega dropdowns and mobile menu",
+      "menu_items": [
+        "Home",
+        "Pages",
+        "Blog",
+        "Gallery",
+        "Book Now",
+        "Location",
+        "Shop",
+        "Events"
+      ],
+      "submenus": {
+        "Pages": ["About Us", "Services", "Therapists", "Courses", "Poses", "404 – page", "Additional Home"],
+        "Services": ["Listing", "Detail"],
+        "Blog": ["Blog I Column x3", "Blog II Column x3", "Blog III Column x3"],
+        "Gallery": ["Gallery II Column", "Gallery III Column", "Gallery IV Column"],
+        "Shop": ["Shop II Column", "Shop III Column", "My Account"],
+        "My Account": ["Wishlist", "Cart", "Checkout"]
+      }
+    },
+    {
+      "order": 3,
+      "id": "hero",
+      "type": "slider",
+      "name": "Hero Slider",
+      "description": "Rotating hero slides with spiritual taglines",
+      "slides": [
+        "Your Mind & Soul is beautiful",
+        "Witness the Ethereal Beauty with Kriya",
+        "Just beautiful",
+        "Eternal Love",
+        "Live towards Eternity"
+      ]
+    },
+    {
+      "order": 4,
+      "id": "intro-cta",
+      "type": "cta",
+      "name": "Intro CTA",
+      "description": "Introductory call-to-action block",
+      "heading": "Spend time with your body and soul together",
+      "button": "Know More"
+    },
+    {
+      "order": 5,
+      "id": "services-intro",
+      "type": "text",
+      "name": "Services Intro",
+      "description": "Lead-in text for the services/yoga styles section",
+      "heading": "The Secret OF your Everyouth"
+    },
+    {
+      "order": 6,
+      "id": "yoga-styles",
+      "type": "grid",
+      "name": "Yoga Styles Grid",
+      "description": "4-column icon grid listing yoga disciplines",
+      "columns": 4,
+      "items": [
+        { "name": "Astanga", "icon": "icon-thumb1.jpg" },
+        { "name": "Hatha", "icon": "icon-thumb2.jpg" },
+        { "name": "Iyengar", "icon": "icon-thumb3.jpg" },
+        { "name": "Kundalini", "icon": "icon-thumb4.jpg" }
+      ]
+    },
+    {
+      "order": 7,
+      "id": "about-kriya",
+      "type": "image-text",
+      "name": "About KRIYA",
+      "description": "About section with imagery and text",
+      "heading": "Your life of Yoga with KRIYA",
+      "image": "about-yoga.jpg"
+    },
+    {
+      "order": 8,
+      "id": "why-kriya",
+      "type": "features",
+      "name": "Why KRIYA?",
+      "description": "Feature list highlighting theme benefits",
+      "features": [
+        "Video support",
+        "Customization",
+        "Easy setup"
+      ]
+    },
+    {
+      "order": 9,
+      "id": "creative-promo",
+      "type": "cta-banner",
+      "name": "Creative Theme Promo",
+      "description": "Promotional banner with purchase CTA",
+      "button": "Purchase Theme"
+    },
+    {
+      "order": 10,
+      "id": "recent-blogs",
+      "type": "post-grid",
+      "name": "Recent Blogs",
+      "description": "3-column recent blog posts grid",
+      "columns": 3,
+      "items": [
+        { "image": "blog9.jpg" },
+        { "image": "course11.jpg" },
+        { "image": "blog2.jpg" }
+      ]
+    },
+    {
+      "order": 11,
+      "id": "featured-courses",
+      "type": "course-grid",
+      "name": "Featured Courses",
+      "description": "Course listings grid",
+      "columns": 3
+    },
+    {
+      "order": 12,
+      "id": "gallery-preview",
+      "type": "gallery",
+      "name": "Gallery Preview",
+      "description": "Image gallery with 2/3/4 column variants",
+      "columns": [2, 3, 4]
+    },
+    {
+      "order": 13,
+      "id": "memories",
+      "type": "gallery",
+      "name": "Memories",
+      "description": "Curated image collection",
+      "columns": 3
+    },
+    {
+      "order": 14,
+      "id": "events",
+      "type": "event-list",
+      "name": "Our Events",
+      "description": "Upcoming event listings"
+    },
+    {
+      "order": 15,
+      "id": "about-kriya-block",
+      "type": "image-text",
+      "name": "About KRIYA Block",
+      "description": "Secondary about block with brand imagery"
+    },
+    {
+      "order": 16,
+      "id": "status-numbers",
+      "type": "counter",
+      "name": "Status in Numbers",
+      "description": "Animated stat counters",
+      "stats": [
+        { "label": "Total Users", "suffix": "+" },
+        { "label": "Years", "suffix": "+" },
+        { "label": "Branches", "suffix": "+" },
+        { "label": "Staffs", "suffix": "+" }
+      ],
+      "columns": 4
+    },
+    {
+      "order": 17,
+      "id": "team",
+      "type": "team-grid",
+      "name": "Our Special Team",
+      "description": "4-column team member grid",
+      "columns": 4,
+      "members": [
+        { "name": "Team Member 1", "image": "user1.jpg" },
+        { "name": "Team Member 2", "image": "user4.jpg" },
+        { "name": "Team Member 3", "image": "user3.jpg" },
+        { "name": "Team Member 4", "image": "user2.jpg" }
+      ]
+    },
+    {
+      "order": 18,
+      "id": "creative-promo-repeat",
+      "type": "cta-banner",
+      "name": "Creative Theme CTA",
+      "description": "Repeat of the creative theme promotional banner",
+      "button": "Purchase Theme"
+    },
+    {
+      "order": 19,
+      "id": "video-gallery",
+      "type": "video-gallery",
+      "name": "Video Gallery",
+      "description": "4-column video thumbnail gallery with play overlay",
+      "heading": "Make your way to complete health",
+      "columns": 4,
+      "items": [
+        { "thumbnail": "video-gall-01.jpg" },
+        { "thumbnail": "video-gall-02.jpg" },
+        { "thumbnail": "video-gall-03.jpg" },
+        { "thumbnail": "video-gall-04.jpg" }
+      ]
+    },
+    {
+      "order": 20,
+      "id": "testimonials",
+      "type": "slider",
+      "name": "Testimonials",
+      "description": "Carousel of customer testimonials",
+      "featured": "Judie Dench"
+    },
+    {
+      "order": 21,
+      "id": "shop",
+      "type": "woocommerce",
+      "name": "Pick a Yoga Pack",
+      "description": "WooCommerce product grid with hover image swap",
+      "columns": 3,
+      "items": [
+        { "name": "Yoga Black Vase", "image": "yoga-black-vase-1000x1000.jpg" },
+        { "name": "Black Vase Decor", "image": "black-vase-decor-1000x1000.jpg" },
+        { "name": "Yoga Herbal Care Pack", "image": "yoga-herbal-care-pack-1000x1000.jpg" },
+        { "name": "Yoga Bath Combo Pack", "image": "yoga-bath-combo-pack-1000x1000.jpg" },
+        { "name": "Woodbox & Towel Set", "image": "woodbox-and-towel-set-1000x1000.jpg" },
+        { "name": "Green Wood Basket", "image": "green-wood-basket-1000x1000.jpg" }
+      ]
+    },
+    {
+      "order": 22,
+      "id": "pricing-plans",
+      "type": "tabs",
+      "name": "Pricing Plans",
+      "anchor": "pricing_plan",
+      "description": "Tabbed pricing for Kids / Adults / Couples with 3 plans each",
+      "tabs": [
+        { "id": "wdt-tabs-0", "label": "Kids", "plans": 3 },
+        { "id": "wdt-tabs-1", "label": "Adults", "plans": 3 },
+        { "id": "wdt-tabs-2", "label": "Couples", "plans": 3 }
+      ]
+    },
+    {
+      "order": 23,
+      "id": "enthusiasts-cta",
+      "type": "cta-banner",
+      "name": "Yoga Enthusiasts CTA",
+      "description": "Decorative image banner with caption",
+      "image": "pose-wit-caption.jpg",
+      "caption": "KRIYA made just for Yoga Enthusiasts"
+    },
+    {
+      "order": 24,
+      "id": "newsletter",
+      "type": "form",
+      "name": "Newsletter",
+      "description": "Subscribe-to-newsletter section"
+    },
+    {
+      "order": 25,
+      "id": "footer",
+      "type": "footer",
+      "name": "Footer",
+      "description": "Site footer with contact, work hours, social, copyright",
+      "logo": "logo.png",
+      "contact": {
+        "toll_free": "1224 2234",
+        "fax": "1224 2235 225",
+        "emails": ["support@livecon.com", "admin@livecon.com"],
+        "address": "625 David Blake Road, Adventureland, LA 14536, USA"
+      },
+      "work_hours": {
+        "monday_thursday": "0600–1800",
+        "friday_saturday": "0600–0900",
+        "sunday": "Closed (holidays)"
+      },
+      "social": ["LinkedIn", "Facebook", "Instagram", "Twitter"],
+      "copyright": "© 2023 Wedesigntech. All rights reserved",
+      "footer_links": ["Terms & Condition", "Privacy Policy"]
+    }
+  ]
+}
