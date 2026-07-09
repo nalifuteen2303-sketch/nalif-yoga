@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kriya Yoga Elementor Site – Your SUPER-powered WP Engine Site</title>
+    <meta name="description" content="KRIYA Yoga Elementor Site — practice, courses, products and retreats for the modern yogi.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Dancing+Script:wght@500;600;700&family=Great+Vibes&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ 1. PRELOADER ============ -->
+<div id="preloader" class="preloader"><img src="images/Kriya-Preloader.gif" alt="Loading..."></div>
+
+<!-- ============ 2. HEADER / NAVIGATION ============ -->
+<header class="site-header" id="siteHeader">
+    <div class="header-inner container">
+        <a href="#main" class="logo"><img src="images/logo.png" alt="KRIYA Yoga"></a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primaryNav">
+            <ul class="nav-list">
+                <li class="active"><a href="#main">Home</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Pages</a>
+                    <ul class="dropdown">
+                        <li><a href="#">About Us</a></li>
+                        <li class="has-submenu">
+                            <a href="#">Services</a>
+                            <ul class="sub-dropdown">
+                                <li><a href="#">Listing</a></li>
+                                <li><a href="#">Detail</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Therapists</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Poses</a></li>
+                        <li><a href="#">404 – page</a></li>
+                        <li><a href="#">Additional Home</a></li>
+                    </ul>
+                </li>
+                <li class="has-mega">
+                    <a href="#">Blog</a>
+                    <div class="mega-menu">
+                        <div class="mega-col"><h4>Blog I</h4><ul><li><a href="#">Column x3</a></li></ul></div>
+                        <div class="mega-col"><h4>Blog II</h4><ul><li><a href="#">Column x3</a></li></ul></div>
+                        <div class="mega-col"><h4>Blog III</h4><ul><li><a href="#">Column x3</a></li></ul></div>
+                    </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#">Gallery</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Gallery II Column</a></li>
+                        <li><a href="#">Gallery III Column</a></li>
+                        <li><a href="#">Gallery IV Column</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="btn-nav">Book Now</a></li>
+                <li><a href="#">Location</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Shop</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Shop II Column</a></li>
+                        <li><a href="#">Shop III Column</a></li>
+                        <li class="has-submenu">
+                            <a href="#">My Account</a>
+                            <ul class="sub-dropdown">
+                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#">Cart</a></li>
+                                <li><a href="#">Checkout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Events</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main">
+
+    <!-- ============ 3. HERO SLIDER ============ -->
+    <section class="hero-slider" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-slides">
+            <div class="hero-slide active" style="background-image:url('images/icon-thumb1.jpg')">
+                <div class="hero-content">
+                    <h1 class="hero-title">Your Mind &amp; Soul <span class="script">is beautiful</span></h1>
+                    <a href="#intro-cta" class="btn btn-primary">Know More</a>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image:url('images/about-yoga.jpg')">
+                <div class="hero-content">
+                    <h1 class="hero-title">Witness the Ethereal Beauty <span class="script">with Kriya</span></h1>
+                    <a href="#intro-cta" class="btn btn-primary">Know More</a>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image:url('images/pose-wit-caption.jpg')">
+                <div class="hero-content">
+                    <h1 class="hero-title">Just <span class="script">beautiful</span></h1>
+                    <a href="#intro-cta" class="btn btn-primary">Know More</a>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image:url('images/user1.jpg')">
+                <div class="hero-content">
+                    <h1 class="hero-title"><span class="script">Eternal Love</span></h1>
+                    <a href="#intro-cta" class="btn btn-primary">Know More</a>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image:url('images/video-gall-01.jpg')">
+                <div class="hero-content">
+                    <h1 class="hero-title">Live towards <span class="script">Eternity</span></h1>
+                    <a href="#intro-cta" class="btn btn-primary">Know More</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-dots" id="heroDots"></div>
+        <a href="#intro-cta" class="hero-scroll" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ============ 4. INTRO CTA ============ -->
+    <section class="intro-cta" id="intro-cta">
+        <div class="container narrow text-center">
+            <h2>Spend time with your body and soul together</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis, lorem a finibus facilisis, justo magna malesuada dui, vitae tristique justo magna nec libero.</p>
+            <a href="#about-kriya" class="btn btn-primary">Know More</a>
+        </div>
+    </section>
+
+    <!-- ============ 5. SERVICES INTRO ============ -->
+    <section class="services-intro">
+        <div class="container text-center">
+            <h2 class="display-heading">The Secret OF your <em class="accent">Everyouth</em></h2>
+        </div>
+    </section>
+
+    <!-- ============ 6. YOGA STYLES GRID ============ -->
+    <section class="yoga-styles">
+        <div class="container">
+            <div class="styles-grid">
+                <article class="style-card">
+                    <div class="style-icon"><img src="images/icon-thumb1.jpg" alt="Astanga Yoga"></div>
+                    <h3>Astanga Yoga</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="read-more">read more <span>→</span></a>
+                </article>
+                <article class="style-card">
+                    <div class="style-icon"><img src="images/icon-thumb2.jpg" alt="Hatha Yoga"></div>
+                    <h3>Hatha Yoga</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="read-more">read more <span>→</span></a>
+                </article>
+                <article class="style-card">
+                    <div class="style-icon"><img src="images/icon-thumb3.jpg" alt="Iyengar Yoga"></div>
+                    <h3>Iyengar Yoga</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="read-more">read more <span>→</span></a>
+                </article>
+                <article class="style-card">
+                    <div class="style-icon"><img src="images/icon-thumb4.jpg" alt="Kundalini Yoga"></div>
+                    <h3>Kundalini Yoga</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="read-more">read more <span>→</span></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 7. ABOUT KRIYA ============ -->
+    <section class="about-kriya" id="about-kriya">
+        <div class="container two-col">
+            <div class="about-image"><img src="images/about-yoga.jpg" alt="About Kriya Yoga"></div>
+            <div class="about-text text-center">
+                <h2>Your life of Yoga with KRIYA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis lorem a finibus facilisis. Donec pulvinar arcu eu magna luctus, quis pulvinar arcu vehicula.</p>
+                <div class="btn-row">
+                    <a href="#" class="btn btn-outline">Know More</a>
+                    <a href="#" class="btn btn-primary">Purchase Theme</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 8. WHY KRIYA? ============ -->
+    <section class="why-kriya">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon"><span>▶</span></div>
+                    <h3>complete video support</h3>
+                    <p>Stream your favorite classes on any device, anytime — the library travels with you.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><span>✦</span></div>
+                    <h3>tons of customization</h3>
+                    <p>Customize layouts, colors, and modules to fit the brand identity of your studio.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><span>⚙</span></div>
+                    <h3>easy to setup</h3>
+                    <p>Import the demo with one click and start shaping your sanctuary in minutes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 9. CREATIVE THEME PROMO ============ -->
+    <section class="cta-banner promo-1">
+        <div class="banner-overlay"></div>
+        <div class="container text-center banner-inner">
+            <h2 class="display-heading">Lose Yourself in <em class="accent">ambience</em> &amp; <em class="accent">atmosphere</em></h2>
+            <p>We at KRIYA provide various services like Spa &amp; Yoga at a time and we welcome all the visitors with great warmth and spiritual quotient.</p>
+            <a href="#" class="btn btn-primary">Purchase Theme</a>
+        </div>
+    </section>
+
+    <!-- ============ 10. RECENT BLOGS ============ -->
+    <section class="recent-blogs">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="eyebrow">Latest news</span>
+                <h2>Recent Blogs</h2>
+            </div>
+            <div class="blogs-grid">
+                <article class="blog-card">
+                    <a href="#" class="blog-image"><img src="images/blog9.jpg" alt=""></a>
+                    <div class="blog-body">
+                        <span class="blog-meta">June 12, 2023 · Admin</span>
+                        <h3><a href="#">Quisque egestas rhoncus mauris</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#" class="blog-link">Continue Reading…</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <a href="#" class="blog-image"><img src="images/course11.jpg" alt=""></a>
+                    <div class="blog-body">
+                        <span class="blog-meta">June 05, 2023 · Admin</span>
+                        <h3><a href="#">Nam sodales tincidunt nunc</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#" class="blog-link">Continue Reading…</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <a href="#" class="blog-image"><img src="images/blog2.jpg" alt=""></a>
+                    <div class="blog-body">
+                        <span class="blog-meta">May 28, 2023 · Admin</span>
+                        <h3><a href="#">Integer diam gravida fringilla</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#" class="blog-link">Continue Reading…</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 11. FEATURED COURSES ============ -->
+    <section class="featured-courses">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="eyebrow">deepen your practice</span>
+                <h2>Featured Courses</h2>
+                <p class="section-lead">We at KRIYA provide various services to make you feel relaxed and stress free.</p>
+            </div>
+            <div class="courses-grid">
+                <article class="course-card">
+                    <div class="course-thumb" style="background-image:url('images/about-yoga.jpg')">
+                        <span class="course-tag">Beginner</span>
+                        <a href="#" class="course-link-overlay"><span>+</span></a>
+                    </div>
+                    <div class="course-body">
+                        <h3><a href="#">Foundations of Yoga</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
+                        <a href="#" class="read-more">read more <span>→</span></a>
+                    </div>
+                </article>
+                <article class="course-card">
+                    <div class="course-thumb" style="background-image:url('images/pose-wit-caption.jpg')">
+                        <span class="course-tag">Intermediate</span>
+                        <a href="#" class="course-link-overlay"><span>+</span></a>
+                    </div>
+                    <div class="course-body">
+                        <h3><a href="#">The Breath Mastery Path</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
+                        <a href="#" class="read-more">read more <span>→</span></a>
+                    </div>
+                </article>
+                <article class="course-card">
+                    <div class="course-thumb" style="background-image:url('images/video-gall-01.jpg')">
+                        <span class="course-tag">All Levels</span>
+                        <a href="#" class="course-link-overlay"><span>+</span></a>
+                    </div>
+                    <div class="course-body">
+                        <h3><a href="#">Meditation &amp; Stillness</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
+                        <a href="#" class="read-more">read more <span>→</span></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 12. GALLERY PREVIEW ============ -->
+    <section class="gallery-preview">
+        <div class="container-fluid">
+            <div class="section-head text-center container">
+                <h2>Gallery Preview</h2>
+            </div>
+            <div class="container">
+                <div class="gallery-grid gallery-4">
+                    <a href="#" class="gallery-item"><img src="images/icon-thumb1.jpg" alt=""><span class="zoom">+</span></a>
+                    <a href="#" class="gallery-item"><img src="images/about-yoga.jpg" alt=""><span class="zoom">+</span></a>
+                    <a href="#" class="gallery-item"><img src="images/user1.jpg" alt=""><span class="zoom">+</span></a>
+                    <a href="#" class="gallery-item"><img src="images/user2.jpg" alt=""><span class="zoom">+</span></a>
+                    <a href="#" class="gallery-item"><img src="images/user3.jpg" alt=""><span class="zoom">+</span></a>
+                    <a href="#" class="gallery-item"><img src="images/user4.jpg" alt=""><span class="zoom">+</span></a>
+                    <a href="#" class="gallery-item"><img src="images/pose-wit-caption.jpg" alt=""><span class="zoom">+</span></a>
+                    <a href="#" class="gallery-item"><img src="images/video-gall-01.jpg" alt=""><span class="zoom">+</span></a>
+                </div>
+            </div>
+            <div class="text-center mt-3"><a href="#" class="btn btn-primary">View Gallery</a></div>
+        </div>
+    </section>
+
+    <!-- ============ 13. MEMORIES ============ -->
+    <section class="memories">
+        <div class="container">
+            <div class="section-head text-center">
+                <h2>Memories</h2>
+            </div>
+            <div class="gallery-grid gallery-3">
+                <a href="#" class="gallery-item"><img src="images/blog9.jpg" alt=""><span class="zoom">+</span></a>
+                <a href="#" class="gallery-item"><img src="images/course11.jpg" alt=""><span class="zoom">+</span></a>
+                <a href="#" class="gallery-item"><img src="images/blog2.jpg" alt=""><span class="zoom">+</span></a>
+                <a href="#" class="gallery-item"><img src="images/video-gall-02.jpg" alt=""><span class="zoom">+</span></a>
+                <a href="#" class="gallery-item"><img src="images/video-gall-03.jpg" alt=""><span class="zoom">+</span></a>
+                <a href="#" class="gallery-item"><img src="images/video-gall-04.jpg" alt=""><span class="zoom">+</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 14. OUR EVENTS ============ -->
+    <section class="our-events">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="eyebrow">mark your calendar</span>
+                <h2>Our Events</h2>
+            </div>
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-image"><img src="images/about-yoga.jpg" alt=""></div>
+                    <div class="event-body">
+                        <div class="event-date-row"><span class="dot"></span> August 14, 2026</div>
+                        <h3>Sunrise Yoga in the Park</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                        <a href="#" class="read-more">read more <span>→</span></a>
+                    </div>
+                </article>
+                <article class="event-card">
+                    <div class="event-image"><img src="images/pose-wit-caption.jpg" alt=""></div>
+                    <div class="event-body">
+                        <div class="event-date-row"><span class="dot"></span> August 22, 2026</div>
+                        <h3>Evening Sound Bath</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                        <a href="#" class="read-more">read more <span>→</span></a>
+                    </div>
+                </article>
+                <article class="event-card">
+                    <div class="event-image"><img src="images/video-gall-01.jpg" alt=""></div>
+                    <div class="event-body">
+                        <div class="event-date-row"><span class="dot"></span> September 03, 2026</div>
+                        <h3>Weekend Meditation Retreat</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                        <a href="#" class="read-more">read more <span>→</span></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 15. ABOUT KRIYA BLOCK ============ -->
+    <section class="about-kriya-block">
+        <div class="container two-col">
+            <div class="about-image"><img src="images/pose-wit-caption.jpg" alt="The KRIYA story"></div>
+            <div class="about-text">
+                <span class="eyebrow">about kriya</span>
+                <h2>About KRIYA</h2>
+                <p>From a small living-room gathering to a global community of practitioners, KRIYA has always been about creating space for transformation. Our studios are crafted in line with sacred geometry; our teachers honor lineage while remaining radically present.</p>
+                <p>We believe wellness is not a luxury but a daily dialogue with yourself — and we are honored to hold space for that conversation.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 16. STATUS IN NUMBERS ============ -->
+    <section class="status-numbers" id="statusNumbers">
+        <div class="container">
+            <div class="section-head text-center">
+                <h2 class="light">Status in Numbers</h2>
+            </div>
+            <div class="stats-grid">
+                <div class="stat">
+                    <div class="stat-value" data-target="4500">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Total Users</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" data-target="12">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" data-target="28">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Branches</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" data-target="120">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">In-house Staffs</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 17. OUR SPECIAL TEAM ============ -->
+    <section class="team">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="eyebrow">meet our teachers</span>
+                <h2>Our Special Team</h2>
+            </div>
+            <div class="team-grid">
+                <article class="team-card">
+                    <div class="team-image"><img src="images/user1.jpg" alt="Camiele James"></div>
+                    <div class="team-body">
+                        <h3>Camiele James</h3>
+                        <span class="team-role">Herbal Spa Expert</span>
+                        <div class="team-social">
+                            <a href="#" aria-label="LinkedIn">in</a>
+                            <a href="#" aria-label="Facebook">f</a>
+                            <a href="#" aria-label="Instagram">ig</a>
+                            <a href="#" aria-label="Twitter">tw</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="team-card">
+                    <div class="team-image"><img src="images/user4.jpg" alt="Laura Steward"></div>
+                    <div class="team-body">
+                        <h3>Laura Steward</h3>
+                        <span class="team-role">Massage Head</span>
+                        <div class="team-social">
+                            <a href="#" aria-label="LinkedIn">in</a>
+                            <a href="#" aria-label="Facebook">f</a>
+                            <a href="#" aria-label="Instagram">ig</a>
+                            <a href="#" aria-label="Twitter">tw</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="team-card">
+                    <div class="team-image"><img src="images/user3.jpg" alt="Jenifer Kate"></div>
+                    <div class="team-body">
+                        <h3>Jenifer Kate</h3>
+                        <span class="team-role">Ayurvedic Spa Treatment</span>
+                        <div class="team-social">
+                            <a href="#" aria-label="LinkedIn">in</a>
+                            <a href="#" aria-label="Facebook">f</a>
+                            <a href="#" aria-label="Instagram">ig</a>
+                            <a href="#" aria-label="Twitter">tw</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="team-card">
+                    <div class="team-image"><img src="images/user2.jpg" alt="Jasmine Hanna"></div>
+                    <div class="team-body">
+                        <h3>Jasmine Hanna</h3>
+                        <span class="team-role">Aromatherapy Expert</span>
+                        <div class="team-social">
+                            <a href="#" aria-label="LinkedIn">in</a>
+                            <a href="#" aria-label="Facebook">f</a>
+                            <a href="#" aria-label="Instagram">ig</a>
+                            <a href="#" aria-label="Twitter">tw</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 18. CREATIVE THEME CTA (REPEAT) ============ -->
+    <section class="cta-banner promo-2">
+        <div class="banner-overlay"></div>
+        <div class="container text-center banner-inner">
+            <h2 class="display-heading">Make your way to <em class="accent">complete health</em></h2>
+            <p>Practice, retreat, and resources — gathered under one warm roof. Begin your KRIYA today.</p>
+            <a href="#" class="btn btn-primary">Purchase Theme</a>
+        </div>
+    </section>
+
+    <!-- ============ 19. VIDEO GALLERY ============ -->
+    <section class="video-gallery">
+        <div class="container">
+            <div class="section-head text-center">
+                <h2>Video Gallery</h2>
+                <p class="section-lead">A practice-driven library — short, honest, and nourishing. Take what your body needs today.</p>
+            </div>
+            <div class="videos-grid">
+                <a href="#" class="video-card">
+                    <img src="images/video-gall-01.jpg" alt="">
+                    <span class="play-icon">▶</span>
+                </a>
+                <a href="#" class="video-card">
+                    <img src="images/video-gall-02.jpg" alt="">
+                    <span class="play-icon">▶</span>
+                </a>
+                <a href="#" class="video-card">
+                    <img src="images/video-gall-03.jpg" alt="">
+                    <span class="play-icon">▶</span>
+                </a>
+                <a href="#" class="video-card">
+                    <img src="images/video-gall-04.jpg" alt="">
+                    <span class="play-icon">▶</span>
+                </a>
+            </div>
+            <div class="text-center mt-3"><a href="#" class="btn btn-primary">View All Videos</a></div>
+        </div>
+    </section>
+
+    <!-- ============ 20. TESTIMONIALS ============ -->
+    <section class="testimonials" id="testimonials">
+        <div class="container narrow text-center">
+            <div class="quote-mark">“</div>
+            <div class="testimonial-slider" id="testimonialSlider">
+                <div class="testimonial-slide active">
+                    <p>Yoga is the practice of quieting the mind. It is through the rhythms of breath and the wisdom of ancient posture that we rediscover the quiet that always lived within. KRIYA honors that journey with such grace.</p>
+                    <div class="testimonial-author">
+                        <span class="author-avatar"><img src="images/user1.jpg" alt=""></span>
+                        <h4>Judie Dench <small>Spa Therapist</small></h4>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <p>I came to the mat looking for fitness and found a friendship with my own breath. The teachers at KRIYA are guides, not gurus — present, generous, and quietly transformational.</p>
+                    <div class="testimonial-author">
+                        <span class="author-avatar"><img src="images/user2.jpg" alt=""></span>
+                        <h4>Aanya M. <small>Practitioner</small></h4>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <p>KRIYA's studio feels like stepping into a deep exhale. The space, the music, the teachers — everything is composed with care. It is the rarest kind of sanctuary.</p>
+                    <div class="testimonial-author">
+                        <span class="author-avatar"><img src="images/user3.jpg" alt=""></span>
+                        <h4>Priya S. <small>Retreat guest</small></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots" id="testimonialDots"></div>
+        </div>
+    </section>
+
+    <!-- ============ 21. SHOP — YOGA PACKS ============ -->
+    <section class="shop">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="eyebrow">take it home</span>
+                <h2>Pick a Yoga Pack</h2>
+            </div>
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="sale-badge">Sale!</span>
+                        <img src="images/yoga-black-vase-1000x1000.jpg" alt="Yoga Black Vase" class="product-img-front">
+                        <img src="images/black-vase-decor-1000x1000.jpg" alt="" class="product-img-hover">
+                        <div class="product-actions">
+                            <a href="#" class="action-btn" aria-label="Cart"><span>🛒</span><em>Add to cart</em></a>
+                            <a href="#" class="action-btn" aria-label="Wishlist"><span>♡</span><em>Wishlist</em></a>
+                        </div>
+                    </div>
+                    <div class="product-body text-center">
+                        <h3><a href="#">Yoga Black Vase</a></h3>
+                        <span class="price"><del>£5.00</del> <ins>£3.00</ins></span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/black-vase-decor-1000x1000.jpg" alt="Black Vase Decor" class="product-img-front">
+                        <img src="images/yoga-black-vase-1000x1000.jpg" alt="" class="product-img-hover">
+                        <div class="product-actions">
+                            <a href="#" class="action-btn" aria-label="Cart"><span>🛒</span><em>Add to cart</em></a>
+                            <a href="#" class="action-btn" aria-label="Wishlist"><span>♡</span><em>Wishlist</em></a>
+                        </div>
+                    </div>
+                    <div class="product-body text-center">
+                        <h3><a href="#">Black Vase Decor</a></h3>
+                        <span class="price"><ins>£9.00</ins></span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="sale-badge">Sale!</span>
+                        <img src="images/yoga-herbal-care-pack-1000x1000.jpg" alt="Yoga Herbal Care Pack" class="product-img-front">
+                        <img src="images/yoga-bath-combo-pack-1000x1000.jpg" alt="" class="product-img-hover">
+                        <div class="product-actions">
+                            <a href="#" class="action-btn" aria-label="Cart"><span>🛒</span><em>Add to cart</em></a>
+                            <a href="#" class="action-btn" aria-label="Wishlist"><span>♡</span><em>Wishlist</em></a>
+                        </div>
+                    </div>
+                    <div class="product-body text-center">
+                        <h3><a href="#">Yoga Herbal Care Pack</a></h3>
+                        <span class="price"><del>£3.00</del> <ins>£2.00</ins></span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/yoga-bath-combo-pack-1000x1000.jpg" alt="Yoga Bath Combo Pack" class="product-img-front">
+                        <img src="images/yoga-herbal-care-pack-1000x1000.jpg" alt="" class="product-img-hover">
+                        <div class="product-actions">
+                            <a href="#" class="action-btn" aria-label="Cart"><span>🛒</span><em>Add to cart</em></a>
+                            <a href="#" class="action-btn" aria-label="Wishlist"><span>♡</span><em>Wishlist</em></a>
+                        </div>
+                    </div>
+                    <div class="product-body text-center">
+                        <h3><a href="#">Yoga Bath Combo Pack</a></h3>
+                        <span class="price"><ins>£12.00</ins></span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/woodbox-and-towel-set-1000x1000.jpg" alt="Woodbox &amp; Towel Set" class="product-img-front">
+                        <img src="images/green-wood-basket-1000x1000.jpg" alt="" class="product-img-hover">
+                        <div class="product-actions">
+                            <a href="#" class="action-btn" aria-label="Cart"><span>🛒</span><em>Add to cart</em></a>
+                            <a href="#" class="action-btn" aria-label="Wishlist"><span>♡</span><em>Wishlist</em></a>
+                        </div>
+                    </div>
+                    <div class="product-body text-center">
+                        <h3><a href="#">Woodbox &amp; Towel Set</a></h3>
+                        <span class="price"><ins>£15.00</ins></span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="sale-badge">Sale!</span>
+                        <img src="images/green-wood-basket-1000x1000.jpg" alt="Green Wood Basket" class="product-img-front">
+                        <img src="images/woodbox-and-towel-set-1000x1000.jpg" alt="" class="product-img-hover">
+                        <div class="product-actions">
+                            <a href="#" class="action-btn" aria-label="Cart"><span>🛒</span><em>Add to cart</em></a>
+                            <a href="#" class="action-btn" aria-label="Wishlist"><span>♡</span><em>Wishlist</em></a>
+                        </div>
+                    </div>
+                    <div class="product-body text-center">
+                        <h3><a href="#">Green Wood Basket</a></h3>
+                        <span class="price"><del>£8.00</del> <ins>£5.00</ins></span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 22. PRICING PLANS ============ -->
+    <section class="pricing-plans" id="pricing_plan">
+        <div class="container">
+            <div class="section-head text-center">
+                <h2>Pricing Plans</h2>
+            </div>
+            <div class="pricing-tabs" role="tablist">
+                <button class="pricing-tab active" data-tab="wdt-tabs-0" role="tab">Kids</button>
+                <button class="pricing-tab" data-tab="wdt-tabs-1" role="tab">Adults</button>
+                <button class="pricing-tab" data-tab="wdt-tabs-2" role="tab">Couples</button>
+            </div>
+
+            <div class="pricing-panels">
+                <!-- KIDS -->
+                <div class="pricing-panel active" data-panel="wdt-tabs-0">
+                    <div class="pricing-grid">
+                        <article class="plan-card">
+                            <h3>One Month Plan</h3>
+                            <div class="plan-price"><span>$</span>30</div>
+                            <ul class="plan-features">
+                                <li>2 group classes / week</li>
+                                <li>Monthly family workshop</li>
+                                <li>Home practice videos</li>
+                                <li>Member newsletter</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline">Buy Now</a>
+                        </article>
+                        <article class="plan-card featured">
+                            <span class="plan-badge">Popular</span>
+                            <h3>6 Months Plan</h3>
+                            <div class="plan-price"><span>$</span>150</div>
+                            <ul class="plan-features">
+                                <li>Unlimited group classes</li>
+                                <li>Quarterly retreat day</li>
+                                <li>Family mindfulness kit</li>
+                                <li>1 private session / month</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </article>
+                        <article class="plan-card">
+                            <h3>One Year Plan</h3>
+                            <div class="plan-price"><span>$</span>300</div>
+                            <ul class="plan-features">
+                                <li>Everything in 6 Months</li>
+                                <li>2 private sessions / month</li>
+                                <li>Personal home sequence</li>
+                                <li>Priority booking</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline">Buy Now</a>
+                        </article>
+                    </div>
+                </div>
+                <!-- ADULTS -->
+                <div class="pricing-panel" data-panel="wdt-tabs-1">
+                    <div class="pricing-grid">
+                        <article class="plan-card">
+                            <h3>One Month Plan</h3>
+                            <div class="plan-price"><span>$</span>30</div>
+                            <ul class="plan-features">
+                                <li>5 classes / month</li>
+                                <li>Online video library</li>
+                                <li>Newsletter &amp; journal</li>
+                                <li>Member community</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline">Buy Now</a>
+                        </article>
+                        <article class="plan-card featured">
+                            <span class="plan-badge">Popular</span>
+                            <h3>6 Months Plan</h3>
+                            <div class="plan-price"><span>$</span>150</div>
+                            <ul class="plan-features">
+                                <li>Unlimited classes</li>
+                                <li>2 private sessions / month</li>
+                                <li>Workshop discounts</li>
+                                <li>Guest pass · 2 / month</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </article>
+                        <article class="plan-card">
+                            <h3>One Year Plan</h3>
+                            <div class="plan-price"><span>$</span>300</div>
+                            <ul class="plan-features">
+                                <li>Everything in 6 Months</li>
+                                <li>Weekly private sessions</li>
+                                <li>Quarterly retreat pass</li>
+                                <li>Personal concierge</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline">Buy Now</a>
+                        </article>
+                    </div>
+                </div>
+                <!-- COUPLES -->
+                <div class="pricing-panel" data-panel="wdt-tabs-2">
+                    <div class="pricing-grid">
+                        <article class="plan-card">
+                            <h3>One Month Plan</h3>
+                            <div class="plan-price"><span>$</span>30</div>
+                            <ul class="plan-features">
+                                <li>Shared unlimited classes</li>
+                                <li>1 couples session / month</li>
+                                <li>Online library access</li>
+                                <li>Community events</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline">Buy Now</a>
+                        </article>
+                        <article class="plan-card featured">
+                            <span class="plan-badge">Popular</span>
+                            <h3>6 Months Plan</h3>
+                            <div class="plan-price"><span>$</span>150</div>
+                            <ul class="plan-features">
+                                <li>All previous benefits</li>
+                                <li>Weekly couples session</li>
+                                <li>Couples retreat · 1 / year</li>
+                                <li>Private meditation suite</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </article>
+                        <article class="plan-card">
+                            <h3>One Year Plan</h3>
+                            <div class="plan-price"><span>$</span>300</div>
+                            <ul class="plan-features">
+                                <li>Everything in 6 Months</li>
+                                <li>Annual retreat · 1 / year</li>
+                                <li>Custom home practice</li>
+                                <li>Priority worldwide</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline">Buy Now</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 23. YOGA ENTHUSIASTS CTA ============ -->
+    <section class="enthusiasts-cta">
+        <div class="enthusiasts-bg" style="background-image:url('images/pose-wit-caption.jpg')">
+            <div class="enthusiasts-overlay"></div>
+            <div class="container text-center enthusiasts-content">
+                <h2>KRIYA made just for <em class="accent">Yoga Enthusiasts</em></h2>
+                <p>Subscribe to our newsletter and discover more, as we share exclusive content, classes, and retreats with our community.</p>
+                <a href="#newsletter" class="btn btn-primary">Subscribe to Newsletter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 24. NEWSLETTER ============ -->
+    <section class="newsletter" id="newsletter">
+        <div class="container two-col align-center">
+            <div class="newsletter-text">
+                <h2>Subscribe to Newsletter</h2>
+                <p>Join our circle for class schedules, retreat news, and quiet letters from the studio — once a fortnight.</p>
+            </div>
+            <form class="newsletter-form" id="newsletterForm" novalidate>
+                <div class="form-row">
+                    <input type="email" name="email" placeholder="your@email.com" aria-label="Email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+                <p class="form-status" id="formStatus" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<!-- ============ 25. FOOTER ============ -->
+<footer class="site-footer" id="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-brand">
+                <a href="#main" class="footer-logo"><img src="images/logo.png" alt="KRIYA"></a>
+                <p>KRIYA is a sanctuary for mind, body and soul — a place to slow down, breathe deeply, and remember the quiet wisdom that always lives within.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                    <a href="#" aria-label="Twitter">tw</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="contact-list">
+                    <li><strong>Toll Free:</strong> 1224 2234</li>
+                    <li><strong>Fax:</strong> 1224 2235 225</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Email</h4>
+                <ul class="contact-list">
+                    <li><a href="mailto:support@livecon.com">support@livecon.com</a></li>
+                    <li><a href="mailto:admin@livecon.com">admin@livecon.com</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Address</h4>
+                <ul class="contact-list">
+                    <li>625 @ David Blake Road,<br>Adventureland, LA 14536, USA</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="work-hours">
+            <h4>Work Hours</h4>
+            <ul>
+                <li><span>Monday - Thursday</span><span>0600 - 1800 hrs</span></li>
+                <li><span>Friday &amp; Saturday</span><span>0600 - 0900 hrs</span></li>
+                <li><span>Sunday &amp; Holidays</span><span>Closed</span></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2023 Wedesigntech. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Terms &amp; Condition</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

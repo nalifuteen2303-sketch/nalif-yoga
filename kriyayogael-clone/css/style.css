@@ -28,7 +28,6 @@ p { margin: 0 0 1em; }
 
 /* ---------- 2. TOKENS ---------- */
 :root {
-    /* Palette */
     --bg:        #ffffff;
     --bg-alt:    #f8f5f0;     /* warm cream */
     --bg-cream:  #faf6ee;     /* lighter cream */
@@ -45,12 +44,10 @@ p { margin: 0 0 1em; }
     --shadow:    0 10px 30px -15px rgba(43,39,36,.18);
     --shadow-lg: 0 18px 50px -20px rgba(43,39,36,.25);
 
-    /* Type */
     --font-serif:  'Cormorant Garamond', 'Playfair Display', Georgia, serif;
     --font-sans:   'Open Sans', sans-serif;
     --font-script: 'Great Vibes', 'Dancing Script', cursive;
 
-    /* Layout */
     --container: 1170px;
     --gutter: clamp(20px, 4vw, 30px);
 }
@@ -80,7 +77,6 @@ h4 { font-family: var(--font-sans); font-size: 1rem; font-weight: 600; }
 .display-heading { font-style: italic; font-size: clamp(2rem, 4vw, 3rem); color: var(--heading); }
 .display-heading em.accent { font-style: italic; color: var(--accent); }
 .light { color: #fff !important; }
-
 .section-lead { max-width: 720px; margin: -10px auto 40px; color: var(--muted); }
 
 /* ---------- 4. BUTTONS ---------- */
@@ -106,7 +102,6 @@ h4 { font-family: var(--font-sans); font-size: 1rem; font-weight: 600; }
 .btn-light { background: #fff; color: var(--heading); border-color: #fff; }
 .btn-light:hover { background: transparent; color: #fff; }
 .btn.small { padding: 10px 22px; font-size: .72rem; }
-
 .btn-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 
 /* ---------- 5. PRELOADER ---------- */
@@ -143,12 +138,7 @@ h4 { font-family: var(--font-sans); font-size: 1rem; font-weight: 600; }
     flex-direction: column;
     justify-content: space-around;
 }
-.nav-toggle span {
-    display: block;
-    height: 2px;
-    background: var(--heading);
-    transition: transform .3s ease, opacity .3s ease;
-}
+.nav-toggle span { display: block; height: 2px; background: var(--heading); transition: transform .3s ease, opacity .3s ease; }
 .nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px,6px); }
 .nav-toggle.active span:nth-child(2) { opacity: 0; }
 .nav-toggle.active span:nth-child(3) { transform: rotate(-45deg) translate(5px,-6px); }
@@ -214,12 +204,7 @@ h4 { font-family: var(--font-sans); font-size: 1rem; font-weight: 600; }
     text-transform: capitalize;
 }
 .dropdown li > a:hover { background: var(--bg-alt); color: var(--heading); border-left-color: var(--accent); }
-
-.sub-dropdown {
-    top: 0; left: 100%;
-    border-top: 0;
-    border-left: 2px solid var(--accent);
-}
+.sub-dropdown { top: 0; left: 100%; border-top: 0; border-left: 2px solid var(--accent); }
 
 /* ---------- 7. HERO SLIDER ---------- */
 .hero-slider {
@@ -382,8 +367,8 @@ section { padding: clamp(60px, 9vw, 110px) 0; position: relative; }
 
 /* ---------- 14. CTA BANNER ---------- */
 .cta-banner { position: relative; padding: clamp(80px, 12vw, 150px) 0; color: #fff; background-size: cover; background-position: center; }
-.promo-1 { background-image: linear-gradient(rgba(43,39,36,.7), rgba(43,39,36,.82)), url('assets/about-yoga.jpg'); }
-.promo-2 { background-image: linear-gradient(rgba(43,39,36,.78), rgba(43,39,36,.88)), url('assets/pose-wit-caption.jpg'); }
+.promo-1 { background-image: linear-gradient(rgba(43,39,36,.7), rgba(43,39,36,.82)), url('../images/about-yoga.jpg'); }
+.promo-2 { background-image: linear-gradient(rgba(43,39,36,.78), rgba(43,39,36,.88)), url('../images/pose-wit-caption.jpg'); }
 .banner-overlay { position: absolute; inset: 0; z-index: 1; }
 .banner-inner { position: relative; z-index: 2; }
 .banner-inner h2 { color: #fff; font-style: italic; }
@@ -532,7 +517,7 @@ section { padding: clamp(60px, 9vw, 110px) 0; position: relative; }
 
 /* ---------- 21. STATUS IN NUMBERS ---------- */
 .status-numbers {
-    background-image: linear-gradient(rgba(43,39,36,.92), rgba(43,39,36,.92)), url('assets/about-yoga.jpg');
+    background-image: linear-gradient(rgba(43,39,36,.92), rgba(43,39,36,.92)), url('../images/about-yoga.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -630,7 +615,7 @@ section { padding: clamp(60px, 9vw, 110px) 0; position: relative; }
 
 /* ---------- 24. TESTIMONIALS ---------- */
 .testimonials {
-    background-image: linear-gradient(rgba(43,39,36,.92), rgba(43,39,36,.92)), url('assets/pose-wit-caption.jpg');
+    background-image: linear-gradient(rgba(43,39,36,.92), rgba(43,39,36,.92)), url('../images/pose-wit-caption.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -855,10 +840,7 @@ section { padding: clamp(60px, 9vw, 110px) 0; position: relative; }
     background: transparent;
     outline: none;
 }
-.newsletter-form button {
-    border-radius: 0;
-    padding: 16px 36px;
-}
+.newsletter-form button { border-radius: 0; padding: 16px 36px; }
 .form-status { font-size: .85rem; color: var(--primary); margin-top: 12px; min-height: 1em; }
 
 /* ---------- 29. FOOTER ---------- */
