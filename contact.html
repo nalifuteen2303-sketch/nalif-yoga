@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — KRIYA Yoga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Dancing+Script:wght@500;600;700&family=Great+Vibes&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div id="preloader" class="preloader"><img src="assets/preloader.gif" alt="Loading..."></div>
+
+<header class="site-header" id="siteHeader">
+    <div class="header-inner container">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="KRIYA Yoga"></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="primary-nav" id="primaryNav">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn-nav">Book Now</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="main">
+
+<section class="page-banner" style="background-image:url('images/hero/hero-4.jpg')">
+    <div class="page-banner-inner">
+        <h1>Get in touch</h1>
+        <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span> Contact</div>
+    </div>
+</section>
+
+<section style="padding-top: 80px;">
+    <div class="container">
+        <div class="contact-grid">
+            <div>
+                <span class="eyebrow">reach out</span>
+                <h2>We're here to listen</h2>
+                <p>Questions about classes, retreats, memberships, or teacher training? Send us a note and we'll get back to you within one business day.</p>
+
+                <div class="contact-info-cards">
+                    <div class="contact-card">
+                        <span class="ic">📍</span>
+                        <div>
+                            <h4>Visit us</h4>
+                            <p>625 @ David Blake Road,<br>Adventureland, LA 14536, USA</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <span class="ic">☎</span>
+                        <div>
+                            <h4>Call</h4>
+                            <p>Toll Free: 1224 2234<br>Fax: 1224 2235 225</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <span class="ic">✉</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>support@livecon.com<br>admin@livecon.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <span class="ic">🕒</span>
+                        <div>
+                            <h4>Work hours</h4>
+                            <p>Mon – Thu: 0600 – 1800<br>Fri – Sat: 0600 – 0900 · Sun: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-icons" style="margin-top: 24px;">
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">ig</a>
+                    <a href="#" aria-label="Twitter">tw</a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm" novalidate>
+                <h3 style="font-family: var(--font-serif); font-weight: 500; font-size: 1.6rem; margin-bottom: 24px;">Send a message</h3>
+                <div class="form-grid">
+                    <div>
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone (optional)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div>
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option>General inquiry</option>
+                            <option>Class booking</option>
+                            <option>Private session</option>
+                            <option>Retreat</option>
+                            <option>Teacher training</option>
+                            <option>Press &amp; partnership</option>
+                        </select>
+                    </div>
+                    <div class="full">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us a bit about what you're looking for..." required></textarea>
+                    </div>
+                    <div class="full">
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        <p class="form-status" id="contactStatus" aria-live="polite" style="margin-top: 14px;"></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="newsletter" id="newsletter">
+    <div class="container two-col align-center">
+        <div class="newsletter-text">
+            <h2>Subscribe to Newsletter</h2>
+            <p>Join our circle for class schedules, retreat news, and quiet letters from the studio.</p>
+        </div>
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+            <div class="form-row">
+                <input type="email" name="email" placeholder="your@email.com" aria-label="Email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<footer class="site-footer" id="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-brand">
+                <a href="index.html" class="footer-logo"><img src="images/logo.png" alt="KRIYA"></a>
+                <p>KRIYA is a sanctuary for mind, body and soul — a place to slow down, breathe deeply, and remember the quiet wisdom that always lives within.</p>
+                <div class="social-icons"><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="Twitter">tw</a></div>
+            </div>
+            <div class="footer-col"><h4>Explore</h4><ul class="contact-list"><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="teachers.html">Teachers</a></li><li><a href="events.html">Events</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="blog.html">Blog</a></li></ul></div>
+            <div class="footer-col"><h4>Contact</h4><ul class="contact-list"><li><strong>Toll Free:</strong> 1224 2234</li><li><strong>Fax:</strong> 1224 2235 225</li><li><a href="mailto:support@livecon.com">support@livecon.com</a></li><li><a href="mailto:admin@livecon.com">admin@livecon.com</a></li></ul></div>
+            <div class="footer-col"><h4>Visit</h4><ul class="contact-list"><li>625 @ David Blake Road,<br>Adventureland, LA 14536, USA</li></ul></div>
+        </div>
+        <div class="work-hours">
+            <h4>Work Hours</h4>
+            <ul>
+                <li><span>Monday - Thursday</span><span>0600 - 1800 hrs</span></li>
+                <li><span>Friday &amp; Saturday</span><span>0600 - 0900 hrs</span></li>
+                <li><span>Sunday &amp; Holidays</span><span>Closed</span></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 KRIYA Yoga. All rights reserved.</p>
+            <ul class="footer-links"><li><a href="#">Terms &amp; Condition</a></li><li><a href="#">Privacy Policy</a></li></ul>
+        </div>
+    </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="js/main.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/gallery.js"></script>
+<script>
+    (function () {
+        const form = document.getElementById('contactForm');
+        const status = document.getElementById('contactStatus');
+        if (!form) return;
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = form.querySelector('#name').value.trim();
+            const email = form.querySelector('#email').value.trim();
+            const message = form.querySelector('#message').value.trim();
+            if (!name || !email || !message) {
+                status.textContent = 'Please complete the required fields.';
+                status.style.color = '#c64b3b';
+                return;
+            }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                status.textContent = 'Please enter a valid email address.';
+                status.style.color = '#c64b3b';
+                return;
+            }
+            status.textContent = 'Thank you, ' + name + '. We received your message and will reply soon.';
+            status.style.color = '#6f8c6f';
+            form.reset();
+        });
+    })();
+</script>
+</body>
+</html>

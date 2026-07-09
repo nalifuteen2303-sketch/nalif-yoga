@@ -1,0 +1,134 @@
+/* =========================================================
+   KRIYA YOGA — Animations
+   Keyframes and transition-based motion classes
+========================================================= */
+
+/* Hero scroll dot */
+@keyframes scrollDot {
+    0%   { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(12px); }
+}
+
+/* Pricing panel fade */
+@keyframes fade {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Soft rise for any element marked .fade-in */
+@keyframes softRise {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Soft scale for hover-like entries */
+@keyframes softScale {
+    from { opacity: 0; transform: scale(.96); }
+    to   { opacity: 1; transform: scale(1); }
+}
+
+/* Slide in from right (used by lightbox / drawer) */
+@keyframes slideInRight {
+    from { opacity: 0; transform: translateX(40px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+/* Subtle pulse for back-to-top */
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50%      { transform: scale(1.06); }
+}
+
+/* ---------- Animation utility classes ---------- */
+.fade-in     { animation: softRise .8s ease both; }
+.fade-in-1   { animation: softRise .8s ease both; animation-delay: .1s; }
+.fade-in-2   { animation: softRise .8s ease both; animation-delay: .2s; }
+.fade-in-3   { animation: softRise .8s ease both; animation-delay: .3s; }
+.fade-in-4   { animation: softRise .8s ease both; animation-delay: .4s; }
+.fade-in-5   { animation: softRise .8s ease both; animation-delay: .5s; }
+
+.zoom-in     { animation: softScale .7s ease both; }
+
+.slide-in    { animation: slideInRight .5s ease both; }
+
+.pricing-panel.active { animation: fade .5s ease; }
+
+.testimonial-dots button { transition: background .25s, transform .25s; }
+.testimonial-dots button.active { background: var(--accent); transform: scale(1.25); }
+.testimonial-slide { transition: opacity .6s ease, transform .6s ease; }
+
+.hero-dots button { transition: background .25s ease, width .25s ease; }
+.hero-dots button.active { background: #fff; width: 44px; }
+
+.gallery-item img { transition: transform .5s ease, filter .3s ease; }
+.gallery-item .zoom { transition: opacity .25s ease, transform .25s ease, background .25s ease, color .25s ease; }
+.gallery-item:hover img { transform: scale(1.08); filter: brightness(.85); }
+.gallery-item:hover .zoom { opacity: 1; transform: translate(-50%, -50%) scale(1); background: var(--accent); color: #fff; }
+
+.team-image img, .blog-image img, .event-image img, .product-image img, .course-thumb { transition: transform .5s ease, filter .3s ease, box-shadow .3s ease; }
+.team-card:hover .team-image img,
+.blog-card:hover .blog-image img,
+.event-card:hover .event-image img,
+.product-card:hover .product-img-front { transform: scale(1.06); }
+
+.product-card .product-img-front, .product-card .product-img-hover { transition: opacity .5s ease, transform .5s ease; }
+.product-card:hover .product-img-front { opacity: 0; }
+.product-card:hover .product-img-hover { opacity: 1; transform: scale(1.05); }
+
+.product-actions { transition: transform .35s ease; }
+.product-card:hover .product-actions { transform: translateY(0); }
+
+.course-link-overlay { transition: opacity .25s ease, transform .25s ease, background .25s ease, color .25s ease; }
+.course-card:hover .course-link-overlay { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+.course-link-overlay:hover { background: var(--heading); color: #fff; }
+
+.video-card img { transition: transform .5s ease, filter .3s ease; }
+.video-card:hover img { transform: scale(1.08); filter: brightness(.55); }
+.play-icon { transition: background .25s, color .25s, transform .25s; }
+.video-card:hover .play-icon { background: var(--accent); color: #fff; transform: translate(-50%,-50%) scale(1.08); }
+
+.style-icon img, .team-image img { transition: transform .5s ease; }
+.style-card:hover .style-icon img { transform: scale(1.1); }
+
+.read-more span { display: inline-block; transition: transform .25s ease; }
+.read-more:hover span { transform: translateX(4px); }
+
+.blog-link { transition: color .25s; }
+.blog-link:hover { color: var(--heading); }
+
+.style-card, .team-card, .blog-card, .course-card, .event-card, .product-card, .plan-card {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.style-card:hover, .team-card:hover, .blog-card:hover, .course-card:hover,
+.event-card:hover, .product-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.plan-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.plan-card.featured:hover { transform: translateY(-18px); }
+.event-card:hover { transform: translateY(-4px); }
+
+.btn { transition: all .3s ease; }
+
+.feature-icon { transition: background .25s ease, color .25s ease, transform .25s ease; }
+.feature:hover .feature-icon { background: var(--accent); color: #fff; transform: translateY(-4px); }
+
+.team-social a { transition: background .25s, color .25s, transform .25s; }
+.team-social a:hover { background: var(--accent); color: #fff; transform: translateY(-2px); }
+
+.social-icons a { transition: background .25s, transform .25s; }
+.social-icons a:hover { background: var(--accent); transform: translateY(-2px); }
+
+.action-btn { transition: background .25s; }
+.action-btn:hover { background: var(--accent); }
+
+.back-to-top { transition: opacity .3s, visibility .3s, transform .3s, background .25s; }
+.back-to-top:hover { background: var(--accent-dark); animation: pulse 1.2s ease-in-out infinite; }
+
+.nav-list > li > a::after { transition: width .25s ease, left .25s ease; }
+.nav-list > li > a:hover::after,
+.nav-list > li.active > a::after { width: 60%; left: 20%; }
+
+.has-dropdown > .dropdown,
+.has-mega > .mega-menu,
+.has-submenu > .sub-dropdown { transition: opacity .25s ease, transform .25s ease, visibility .25s ease; }
+.has-dropdown:hover > .dropdown,
+.has-mega:hover > .mega-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+.has-mega:hover > .mega-menu { transform: translateX(-50%) translateY(0); }

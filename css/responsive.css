@@ -1,0 +1,93 @@
+/* =========================================================
+   KRIYA YOGA — Responsive
+   Tablet (≤1024), Mobile (≤768), Phone (≤480)
+========================================================= */
+
+/* ---------- TABLET ---------- */
+@media (max-width: 1024px) {
+    .nav-list > li > a { padding: 14px 8px; font-size: .76rem; letter-spacing: .08em; }
+    .logo img { height: 48px; }
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+    .styles-grid, .blogs-grid, .courses-grid, .events-grid, .pricing-grid, .videos-grid, .team-grid { grid-template-columns: repeat(2, 1fr); }
+    .gallery-4 { grid-template-columns: repeat(3, 1fr); }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .features-grid { grid-template-columns: 1fr; gap: 30px; }
+    .plan-card.featured { transform: none; }
+    .products-grid { grid-template-columns: repeat(3, 1fr); }
+    .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+    .contact-form .form-grid { grid-template-columns: 1fr; }
+    .page-banner { min-height: 320px; }
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 768px) {
+    body { font-size: 14px; }
+    section { padding: 60px 0; }
+    .hero-content { padding-top: 8vh; }
+    .hero-title .script { font-size: 1em; }
+    .hero-dots { bottom: 90px; }
+
+    /* mobile nav */
+    .nav-toggle { display: flex; }
+    .primary-nav {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #fff;
+        box-shadow: 0 12px 24px -12px rgba(0,0,0,.2);
+        max-height: 0;
+        overflow-y: auto;
+        transition: max-height .35s ease;
+    }
+    .primary-nav.open { max-height: 80vh; }
+    .nav-list { flex-direction: column; align-items: stretch; gap: 0; padding: 12px 0; }
+    .nav-list > li { width: 100%; border-bottom: 1px solid var(--line); }
+    .nav-list > li > a { padding: 14px 24px; }
+    .nav-list > li > a.btn-nav { margin: 12px 24px; text-align: center; border-radius: 2px; }
+    .nav-list > li > a::after { display: none; }
+    .dropdown, .mega-menu, .sub-dropdown {
+        position: static;
+        opacity: 1; visibility: visible;
+        transform: none;
+        box-shadow: none;
+        border-top: 0;
+        padding: 0 0 0 14px;
+        background: var(--bg-alt);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .35s ease;
+    }
+    .has-dropdown.open > .dropdown,
+    .has-mega.open > .mega-menu,
+    .has-dropdown .has-submenu.open > .sub-dropdown { max-height: 600px; padding-top: 8px; padding-bottom: 8px; }
+    .mega-menu { display: none; }
+
+    .two-col { grid-template-columns: 1fr; gap: 30px; }
+    .contact-grid { grid-template-columns: 1fr; gap: 30px; }
+    .contact-form { padding: 28px 22px; }
+    .contact-form .form-grid { grid-template-columns: 1fr; gap: 14px; }
+
+    .styles-grid, .blogs-grid, .courses-grid, .events-grid, .pricing-grid, .videos-grid, .team-grid, .gallery-4, .gallery-3, .stats-grid { grid-template-columns: 1fr; }
+    .products-grid { grid-template-columns: repeat(2, 1fr); }
+    .pricing-tabs { max-width: 360px; }
+    .pricing-tab { padding: 12px 18px; font-size: .72rem; }
+
+    .testimonials p { font-size: 1rem; }
+    .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+    .enthusiasts-bg, .status-numbers, .testimonials { background-attachment: scroll; }
+    .stat { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.12); padding-bottom: 20px; margin-bottom: 20px; }
+    .stat:last-child { border: 0; padding: 0; margin: 0; }
+    .newsletter .two-col { gap: 24px; }
+    .page-banner { min-height: 280px; }
+    .faq-q { padding: 18px 20px; font-size: 1rem; }
+    .faq-item.open .faq-a { padding: 0 20px 18px; }
+}
+
+/* ---------- PHONE ---------- */
+@media (max-width: 480px) {
+    .pricing-tab { padding: 12px 8px; font-size: .68rem; }
+    .products-grid { grid-template-columns: 1fr; }
+    .blog-body, .course-body, .event-body { padding: 22px 20px; }
+    .page-banner h1 { font-size: 2rem; }
+    .breadcrumb { font-size: .7rem; }
+}
